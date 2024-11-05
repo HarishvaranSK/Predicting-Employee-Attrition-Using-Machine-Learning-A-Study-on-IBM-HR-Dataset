@@ -20,16 +20,24 @@ The objective was to develop a predictive model for employee attrition, which wa
 **Code link:** https://colab.research.google.com/drive/1EX-Pssyxv36zXDxD6cMNlo4gKX_Pu-8b?usp=sharing
 
 ## Advantages
-**Effective Dimensionality Reduction:** PCA reduced feature complexity while retaining crucial information, aiding in the prevention of overfitting.
-**Hyperparameter Optimization:** GridSearchCV ensured that the models operated at their best possible configurations.
-**Accurate Predictions:** The project achieved high prediction accuracy, particularly with SVM, making it a viable solution for employee attrition prediction.
+**Effective Dimensionality Reduction:** 
+PCA reduced feature complexity while retaining crucial information, aiding in the prevention of overfitting.
+
+**Hyperparameter Optimization:** 
+GridSearchCV ensured that the models operated at their best possible configurations.
+
+**Accurate Predictions:** 
+The project achieved high prediction accuracy, particularly with SVM, making it a viable solution for employee attrition prediction.
 
 ## Limitations:
-**Model Interpretability:** While SVM provided the highest accuracy, it is less interpretable than Logistic Regression, which could be a limitation in some business contexts.
+**Model Interpretability:** 
+While SVM provided the highest accuracy, it is less interpretable than Logistic Regression, which could be a limitation in some business contexts.
 
-**Sensitivity to Data:** KNN was highly sensitive to outliers and neighborhood size, which restricted its effectiveness on this dataset.
+**Sensitivity to Data:** 
+KNN was highly sensitive to outliers and neighborhood size, which restricted its effectiveness on this dataset.
 
-**Computational Cost:** The hyperparameter tuning process, especially for SVM, was computationally expensive due to the multiple grid searches performed across parameters.
+**Computational Cost:** 
+The hyperparameter tuning process, especially for SVM, was computationally expensive due to the multiple grid searches performed across parameters.
 
 ## Project Credits
 **Project By:** Harishvaran S K
