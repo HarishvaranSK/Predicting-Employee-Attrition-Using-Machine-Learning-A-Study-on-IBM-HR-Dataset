@@ -26,7 +26,9 @@ The objective was to develop a predictive model for employee attrition, which wa
 
 ## Limitations:
 **Model Interpretability:** While SVM provided the highest accuracy, it is less interpretable than Logistic Regression, which could be a limitation in some business contexts.
+
 **Sensitivity to Data:** KNN was highly sensitive to outliers and neighborhood size, which restricted its effectiveness on this dataset.
+
 **Computational Cost:** The hyperparameter tuning process, especially for SVM, was computationally expensive due to the multiple grid searches performed across parameters.
 
 ## Project Credits
